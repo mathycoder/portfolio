@@ -1,4 +1,32 @@
 .navbar {
   background-color: lightgrey;
   height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a:hover {
+  color: gray;
+}
+
+.navbar div, .navbar a {
+  margin: 5px 20px;
+}
+
+.navbar div {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar #about-link {
+  margin-left: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar #blog-link {
+  margin-right: 40px;
 }
