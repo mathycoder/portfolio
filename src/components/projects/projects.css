@@ -1,3 +1,71 @@
+.projects {
+  margin: 20px;
+}
+
+.projects h1 {
+  text-align: center;
+}
+
+.project {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.project .project-title {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.project .project-title div {
+  margin: 20px 40px;
+}
+
+.project .project-title-image{
+  margin-left: 15px;
+  width: 250px;
+}
+
+.iframe-and-links {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 210px 30px;
+}
+
+.iframe-and-links a {
+  margin: 0 auto;
+}
+
 .github-logo {
-  width: 30px;
+  position: relative;
+  width: 25px;
+}
+
+
+
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.description .bulletpoints {
+  width: 400px;
 }
