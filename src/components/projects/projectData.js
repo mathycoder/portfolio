@@ -1,7 +1,8 @@
 export const myProjects = [
   {
     title: "Student Agendas",
-    titleImage: "https://www.dropbox.com/s/9kv1f84xhnsmiwi/student-agendas.png?raw=1",
+    titleImage: "/images/student-agendas-logo.png",
+    appImage: "/images/student-agendas-pic.png",
     description: "Student Agendas was the tool I always wanted as an educator but could never quite find. It allows teachers to create individualized video agendas for students, as well as assess their understanding using reflection questions.  Every inch of the app is built with teachers and students in mind, such as a queue of 'To Be Graded' agenda items to ease grading for teachers.",
     githubUrl: "https://github.com/mathycoder/student-agendas-fullstack",
     demoUrl: "http://www.youtube.com/embed/VXla-HpaPUI",
@@ -14,7 +15,8 @@ export const myProjects = [
   },
   {
     title: "MyGradebook",
-    titleImage: "https://www.dropbox.com/s/nzr9jnunncxonhn/my-gradebook.png?raw=1",
+    titleImage: "/images/my-gradebook-logo.png",
+    appImage: "/images/my-gradebook-pic.png",
     description: "I built MyGradebook to make standards-based grading easier and more intuitive for teachers.  The application makes it easy for teachers to see how their students are doing on the Common Core Standards.  Line and Bar give teachers immediate feedback on who knows what, and where to go next.  For any school hoping to make the jump to standards-based grading, this app would definitely help them on that journey!",
     githubUrl: "https://github.com/mathycoder/mygradebook-js",
     demoUrl: "http://www.youtube.com/embed/6h50pqRM3aI",
@@ -29,7 +31,8 @@ export const myProjects = [
   },
   {
     title: "MemoryLane",
-    titleImage: "https://www.dropbox.com/s/sx7x0ap2v2hd9vw/memory-lane.png?raw=1",
+    titleImage: "/images/memory-lane-logo.png",
+    appImage: "/images/memory-lane-pic.png",
     description: "MemoryLane provides a more intimate way to share memories than Facebook or Instagram.  Users start by creating a lane with two or more people.  Then anyone in the lane can add a memory or contribute to other memories by adding their own recollections and photos.  The app is a great place for users to reminisce on old memories and recollections, or share create new memories and share photos for new adventures!",
     githubUrl: "https://github.com/mathycoder/memory_lane",
     demoUrl: "http://www.youtube.com/embed/d3hfnxCV2V4",

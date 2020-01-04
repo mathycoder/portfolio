@@ -7,7 +7,7 @@ class Projects extends Component {
   render(){
     return (
       <div className="projects">
-        <h1>Projects Page</h1>
+        <h1>My Projects</h1>
         {myProjects.map(project => (
           <Project project={project}/>
         ))}
