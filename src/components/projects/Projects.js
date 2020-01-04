@@ -30,7 +30,7 @@ class Projects extends Component {
     const { project, projectId } = this.state
     return (
       <div className="projects">
-        <h1>My Projects</h1>
+        <h5>Select a Project:</h5>
         <div className="project-icons">
         {myProjects.map(proj => (
           <div
@@ -40,7 +40,7 @@ class Projects extends Component {
           </div>
         ))}
         </div>
-        {project ? <Project project={project}/> : ''}
+        {project ? <Project project={project} key={Math.random()}/> : ''}
       </div>
     )
   }
