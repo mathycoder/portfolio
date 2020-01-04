@@ -1,5 +1,6 @@
 export const myProjects = [
   {
+    id: 1,
     title: "Student Agendas",
     titleImage: "/images/student-agendas-logo.png",
     appImage: "/images/student-agendas-pic.png",
@@ -14,6 +15,7 @@ export const myProjects = [
     ]
   },
   {
+    id: 2,
     title: "MyGradebook",
     titleImage: "/images/my-gradebook-logo.png",
     appImage: "/images/my-gradebook-pic.png",
@@ -30,6 +32,7 @@ export const myProjects = [
     ]
   },
   {
+    id: 3,
     title: "MemoryLane",
     titleImage: "/images/memory-lane-logo.png",
     appImage: "/images/memory-lane-pic.png",

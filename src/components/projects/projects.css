@@ -6,14 +6,37 @@
   text-align: center;
 }
 
+.project-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-icons div {
+  border: 2px solid white;
+  height: min-content;
+  margin-right: 4px;
+}
+
+.project-icons div.selected {
+  border: 2px solid black;
+}
+
+.project-icon img {
+  width: 150px;
+  height: 50px;
+  margin-bottom: -3px;
+}
+
+/* ----------------------------------- */
+
 .project {
-  /* margin-top: 20px;
-  margin-bottom: 40px; */
   margin: 20px auto;
   padding: 20px;
   border: solid 2px black;
   border-radius: 10px;
-  max-width: 1000px;
+  max-width: 900px;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .project .title-image img {
